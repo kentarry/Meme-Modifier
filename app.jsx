@@ -264,6 +264,7 @@ function App(){
   const [eT,sET]=useState({}); // Contains {img/vid: lines, img_s/vid_s: stickers}
   const [tCfg,sTCfg]=useState({});
   const [mCfg,sMCfg]=useState({}); // Media config like filters
+  const [brokenImgs,sBrokenImgs]=useState({}); // Track broken image URLs by ID
   const [toast,sToast]=useState("");
   const [videoTime, setVideoTime] = useState(0);
 
@@ -278,11 +279,15 @@ function App(){
   },[]);
 
   const fl=useMemo(()=>DB.filter(m=>{
+    if(brokenImgs[m.id]) return false;
     if(fC!=="ALL"&&m.c!==fC)return false;
     if(fY!=="ALL"){const[a,b]=fY.split("-").map(Number);if(m.y<a||m.y>b)return false;}
     if(q){const s=q.toLowerCase();return m.title.toLowerCase().includes(s)||m.src.toLowerCase().includes(s)||m.tags.some(t=>t.includes(s));}
     return true;
-  }).sort((a,b)=>b.y-a.y),[DB, fC, fY, q]);
+  }).sort((a,b)=>{
+    if ((b.pop||0) !== (a.pop||0)) return (b.pop||0) - (a.pop||0);
+    return b.y-a.y;
+  }),[DB, fC, fY, q, brokenImgs]);
 
   const act=DB.find(m=>m.id===aId);
 
@@ -380,7 +385,7 @@ function App(){
           {fl.map(m=>
             <div key={m.id} onClick={()=>open(m.id)} className="card" style={{borderRadius:14,border:aId===m.id?`2px solid ${CC[m.c]?.co||'#a855f7'}66`:"1px solid rgba(255,255,255,.05)",overflow:"hidden",position:"relative",background:aId===m.id?"rgba(255,255,255,.04)":"rgba(255,255,255,.015)",height:140}}>
               <div style={{position:"relative"}}>
-                <img src={m.img} style={{width:"100%",height:"140px",objectFit:"cover",display:"block"}}/>
+                <img src={m.img} onError={()=>sBrokenImgs(p=>({...p, [m.id]:true}))} style={{width:"100%",height:"140px",objectFit:"cover",display:"block"}}/>
                 <div style={{position:"absolute",inset:0,background:"linear-gradient(transparent 30%,rgba(0,0,0,.9))"}}/>
                 <span style={{position:"absolute",bottom:10,left:12,fontSize:14,fontWeight:900,color:"#fff",textShadow:"0 2px 8px rgba(0,0,0,.9)",lineHeight:1.1}}>{m.em} {m.title}</span>
                 <span style={{position:"absolute",top:8,right:8,fontSize:9,color:m.t==="vid"?"#7DD3FC":"#F9A8D4",background:"rgba(0,0,0,.6)",padding:"2px 8px",borderRadius:6}}>{m.t==="vid"?"🎬":"🖼️"}</span>
