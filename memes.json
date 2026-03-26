@@ -6,21 +6,14 @@
     "t": "vid",
     "title": "甘安捏",
     "src": "《台灣龍捲風》",
-    "tags": ["鄉土劇", "洗腦"],
+    "tags": ["鄉土剧", "洗腦"],
     "em": "😏",
     "img": "https://img.youtube.com/vi/5GL9JoH4Sws/hqdefault.jpg",
     "vid": "5GL9JoH4Sws",
     "grad": ["#4a0e0e", "#1c0404"],
     "desc": "演員方岑飾演反派葉美琪，口頭禪「甘安捏」劇中出現77次。",
-    "iL": [
-      { "text": "甘安捏？" },
-      { "text": "甘安捏！！！" }
-    ],
-    "vL": [
-      { "text": "女角走進房間", "start": 0, "end": 2 },
-      { "text": "你說什麼", "start": 3, "end": 4 },
-      { "text": "甘安捏？甘安捏？", "start": 5, "end": 7 }
-    ]
+    "iL": [{ "text": "甘安捏？" }, { "text": "甘安捏！！！" }],
+    "vL": [{ "text": "你說什麼", "start": 3, "end": 4 }, { "text": "甘安捏？甘安捏？", "start": 5, "end": 7 }]
   },
   {
     "id": "us04",
@@ -35,14 +28,8 @@
     "vid": "gVEdQJ7qtJw",
     "grad": ["#1a2a4a", "#08101c"],
     "desc": "Haliey Welch南方口音成夏日文化現象。",
-    "iL": [
-      { "text": "HAWK TUAH" },
-      { "text": "Spit on that thang" }
-    ],
-    "vL": [
-      { "text": "You gotta give em", "start": 5, "end": 6 },
-      { "text": "HAWK TUAH!", "start": 7, "end": 8 }
-    ]
+    "iL": [{ "text": "HAWK TUAH" }, { "text": "Spit on that thang" }],
+    "vL": [{ "text": "You gotta give em", "start": 5, "end": 6 }, { "text": "HAWK TUAH!", "start": 7, "end": 8 }]
   },
   {
     "id": "us06",
@@ -57,10 +44,7 @@
     "vid": "",
     "grad": ["#2a2a0e", "#101004"],
     "desc": "穿毛衣卡通狗面對混亂保持冷靜。",
-    "iL": [
-      { "text": "我只是一個" },
-      { "text": "心如止水的狗狗" }
-    ],
+    "iL": [{ "text": "我只是一個" }, { "text": "心如止水的狗狗" }],
     "vL": []
   },
   {
@@ -76,10 +60,7 @@
     "vid": "",
     "grad": ["#0e0e4a", "#04041c"],
     "desc": "「小孩子才做選擇，我全都要！」",
-    "iL": [
-      { "text": "小孩子才做選擇" },
-      { "text": "我 全 都 要" }
-    ],
+    "iL": [{ "text": "小孩子才做選擇" }, { "text": "我 全 都 要" }],
     "vL": []
   },
   {
@@ -95,13 +76,8 @@
     "vid": "ekr2nIex040",
     "grad": ["#0e0e4a", "#04041c"],
     "desc": "源自韓國喝酒遊戲的洗腦歌曲。",
-    "iL": [
-      { "text": "A-P-T!" },
-      { "text": "APT! APT!" }
-    ],
-    "vL": [
-      { "text": "AP-AP-AP-APT!", "start": 3, "end": 5 }
-    ]
+    "iL": [{ "text": "A-P-T!" }, { "text": "APT! APT!" }],
+    "vL": [{ "text": "AP-AP-AP-APT!", "start": 3, "end": 5 }]
   },
   {
     "id": "ig01",
@@ -116,12 +92,311 @@
     "vid": "jNQXAC9IVRw",
     "grad": ["#4a0e2a", "#1c0410"],
     "desc": "系統自動從 IG/Threads 等社群平台抓取的最新熱門迷因。影片無須手動輸入。",
-    "iL": [
-      { "text": "最新爆紅" }
-    ],
-    "vL": [
-      { "text": "第一段精華", "start": 0, "end": 5 },
-      { "text": "第二段笑點", "start": 6, "end": 10 }
-    ]
+    "iL": [{ "text": "最新爆紅" }],
+    "vL": [{ "text": "第一段精華", "start": 0, "end": 5 }, { "text": "第二段笑點", "start": 6, "end": 10 }]
+  },
+  {
+    "id": "us10",
+    "c": "US",
+    "y": 2015,
+    "t": "img",
+    "title": "Distracted Boyfriend",
+    "src": "Stock Photo",
+    "tags": ["萬用", "對比"],
+    "em": "👀",
+    "img": "https://i.imgflip.com/1ur9b0.jpg",
+    "vid": "",
+    "grad": ["#10304a", "#040c1a"],
+    "desc": "男友牽著女友的手卻回頭看另一個路過的女生，象徵被新事物吸引而拋棄舊事物。",
+    "iL": [{ "text": "我" }, { "text": "新的酷東東" }, { "text": "該做的事" }],
+    "vL": []
+  },
+  {
+    "id": "us11",
+    "c": "US",
+    "y": 2011,
+    "t": "img",
+    "title": "Woman Yelling at a Cat",
+    "src": "RHOBH / Tumblr",
+    "tags": ["對比", "吵架"],
+    "em": "🤬",
+    "img": "https://i.imgflip.com/345v97.jpg",
+    "vid": "",
+    "grad": ["#4a2010", "#1a0804"],
+    "desc": "崩潰大吼的女人對比一臉困惑的白貓坐在餐桌前。",
+    "iL": [{ "text": "我媽叫我吃飯" }, { "text": "還在打遊戲的我" }],
+    "vL": []
+  },
+  {
+    "id": "us12",
+    "c": "US",
+    "y": 2013,
+    "t": "img",
+    "title": "Doge",
+    "src": "Kabosu",
+    "tags": ["柴犬", "狗狗幣"],
+    "em": "🐕",
+    "img": "https://i.imgflip.com/4t0m5.jpg",
+    "vid": "",
+    "grad": ["#4a4010", "#1a1604"],
+    "desc": "經典柴犬 Kabosu，配上五顏六色的 Comic Sans 字體自言自語。",
+    "iL": [{ "text": "wow" }, { "text": "such frontend" }, { "text": "very react" }],
+    "vL": []
+  },
+  {
+    "id": "us13",
+    "c": "US",
+    "y": 2014,
+    "t": "img",
+    "title": "This Is Fine",
+    "src": "Gunshow Comic",
+    "tags": ["狗", "絕望"],
+    "em": "🔥",
+    "img": "https://i.imgflip.com/wxica.jpg",
+    "vid": "",
+    "grad": ["#4a1510", "#1a0404"],
+    "desc": "房子著火了，但坐在中間喝咖啡的狗表示「一切都很好」。",
+    "iL": [{ "text": "This is fine." }, { "text": "(當專案快上線但還有100個Bug)" }],
+    "vL": []
+  },
+  {
+    "id": "us14",
+    "c": "US",
+    "y": 2015,
+    "t": "img",
+    "title": "Drake Hotline Bling",
+    "src": "Drake MV",
+    "tags": ["拒絕", "接受"],
+    "em": "🙅",
+    "img": "https://i.imgflip.com/30b1gx.jpg",
+    "vid": "",
+    "grad": ["#4a2510", "#1a0b04"],
+    "desc": "Drake 在 MV 中先是擺出拒絕的手勢，然後再露出滿意的笑容指著另一邊。",
+    "iL": [{ "text": "早點睡覺" }, { "text": "熬夜寫 Code" }],
+    "vL": []
+  },
+  {
+    "id": "us15",
+    "c": "US",
+    "y": 2017,
+    "t": "img",
+    "title": "Roll Safe (Think About It)",
+    "src": "Hood Documentary",
+    "tags": ["聰明", "反面邏輯"],
+    "em": "🧠",
+    "img": "https://i.imgflip.com/1h7in3.jpg",
+    "vid": "",
+    "grad": ["#101a4a", "#04071a"],
+    "desc": "演員 Kayode Ewumi 指著太陽穴微笑，表示「只要你不去做，就不會出錯」。",
+    "iL": [{ "text": "只要不寫 Code" }, { "text": "就不會有 Bug" }],
+    "vL": []
+  },
+  {
+    "id": "us16",
+    "c": "US",
+    "y": 2020,
+    "t": "img",
+    "title": "Swole Doge vs Cheems",
+    "src": "Reddit",
+    "tags": ["過去", "現在"],
+    "em": "💪",
+    "img": "https://i.imgflip.com/43a45p.jpg",
+    "vid": "",
+    "grad": ["#4a3d10", "#1a1304"],
+    "desc": "肌肉發達的柴犬 Doge 對比一隻廢柴模樣的柴犬 Cheems，用於比較過去與現在的差距。",
+    "iL": [{ "text": "1990年的網路" }, { "text": "現在的網路" }],
+    "vL": []
+  },
+  {
+    "id": "us17",
+    "c": "US",
+    "y": 2019,
+    "t": "img",
+    "title": "Is This a Pigeon?",
+    "src": "太陽勇者",
+    "tags": ["困惑", "動漫"],
+    "em": "🦋",
+    "img": "https://i.imgflip.com/26tl1t.jpg",
+    "vid": "",
+    "grad": ["#104a3d", "#041a15"],
+    "desc": "動漫角色指著蝴蝶問「這是鴿子嗎？」廣泛用於對某事物產生誤解的情境。",
+    "iL": [{ "text": "我" }, { "text": "單純的 Error" }, { "text": "這是我電腦壞了嗎？" }],
+    "vL": []
+  },
+  {
+    "id": "us18",
+    "c": "US",
+    "y": 2018,
+    "t": "img",
+    "title": "Surprised Pikachu",
+    "src": "Pokemon",
+    "tags": ["驚訝", "理所當然"],
+    "em": "😯",
+    "img": "https://i.imgflip.com/2kbn1e.jpg",
+    "vid": "",
+    "grad": ["#4a4510", "#1a1804"],
+    "desc": "皮卡丘露出極度驚訝的表情，通常用於早就知道會發生卻還是裝作驚訝的情境。",
+    "iL": [{ "text": "我：天天熬夜吃宵夜" }, { "text": "我也：變胖了" }, { "text": "😯" }],
+    "vL": []
+  },
+  {
+    "id": "gl02",
+    "c": "GL",
+    "y": 1987,
+    "t": "vid",
+    "title": "Rickroll",
+    "src": "Rick Astley",
+    "tags": ["惡作劇", "經典"],
+    "em": "🕺",
+    "img": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "vid": "dQw4w9WgXcQ",
+    "grad": ["#10154a", "#04051a"],
+    "desc": "網路史上最著名的惡作劇連結片段。",
+    "iL": [{ "text": "Never gonna give you up" }],
+    "vL": [{ "text": "Never gonna let you down", "start": 43, "end": 48 }]
+  },
+  {
+    "id": "jp03",
+    "c": "JP",
+    "y": 2020,
+    "t": "vid",
+    "title": "Pop Cat",
+    "src": "Twitter",
+    "tags": ["貓", "可愛"],
+    "em": "🐱",
+    "img": "https://img.youtube.com/vi/aCg3Hk7F8Q4/hqdefault.jpg",
+    "vid": "aCg3Hk7F8Q4",
+    "grad": ["#4a1545", "#1a0418"],
+    "desc": "嘴巴開合發出啵啵聲的貓咪。",
+    "iL": [{ "text": "POP" }, { "text": "POP POP" }],
+    "vL": [{ "text": "POP", "start": 0, "end": 5 }]
+  },
+  {
+    "id": "cn02",
+    "c": "CN",
+    "y": 2023,
+    "t": "vid",
+    "title": "恐龍抗狼",
+    "src": "抖音",
+    "tags": ["洗腦", "歌曲"],
+    "em": "🦖",
+    "img": "https://img.youtube.com/vi/u5E0PzR0VpM/hqdefault.jpg",
+    "vid": "u5E0PzR0VpM",
+    "grad": ["#104a11", "#041a04"],
+    "desc": "魔性洗腦的恐龍抗狼。",
+    "iL": [{ "text": "恐龍抗狼抗狼抗" }],
+    "vL": [{ "text": "我沒k", "start": 0, "end": 2 }, { "text": "布魯biu，布魯biu", "start": 3, "end": 6 }]
+  },
+  {
+    "id": "tw09",
+    "c": "TW",
+    "y": 2024,
+    "t": "vid",
+    "title": "瑪卡巴卡",
+    "src": "晚安語",
+    "tags": ["童年", "晚安"],
+    "em": "😴",
+    "img": "https://img.youtube.com/vi/Tq8sW2t33N0/hqdefault.jpg",
+    "vid": "Tq8sW2t33N0",
+    "grad": ["#102a4a", "#040e1a"],
+    "desc": "花園寶寶的瑪卡巴卡，常被年輕人拿來互道晚安。",
+    "iL": [{ "text": "晚安" }, { "text": "瑪卡巴卡" }],
+    "vL": [{ "text": "瑪卡巴卡阿卡哇卡", "start": 0, "end": 5 }]
+  },
+  {
+    "id": "tw10",
+    "c": "TW",
+    "y": 2021,
+    "t": "img",
+    "title": "看好了世界",
+    "src": "社群",
+    "tags": ["台灣", "時事"],
+    "em": "🌏",
+    "img": "https://i.imgflip.com/5apw2t.jpg",
+    "vid": "",
+    "grad": ["#104a30", "#041a10"],
+    "desc": "台灣經典防疫金句，後來被廣泛改編為各種『看好了』的迷因。",
+    "iL": [{ "text": "看好了世界" }, { "text": "我只示範一次" }, { "text": "如何在一天內把薪水花光" }],
+    "vL": []
+  },
+  {
+    "id": "gl03",
+    "c": "GL",
+    "y": 2023,
+    "t": "img",
+    "title": "Side Eye Criminal Offensive",
+    "src": "TikTok",
+    "tags": ["嫌棄", "眼神"],
+    "em": "😒",
+    "img": "https://i.imgflip.com/7s18i2.jpg",
+    "vid": "",
+    "grad": ["#4a1020", "#1a040b"],
+    "desc": "Bombastic side eye. Criminal offensive side eye.",
+    "iL": [{ "text": "Bombastic side eye." }, { "text": "當我看到前任" }],
+    "vL": []
+  },
+  {
+    "id": "kr03",
+    "c": "KR",
+    "y": 2023,
+    "t": "vid",
+    "title": "TWS 打招呼",
+    "src": "TWS",
+    "tags": ["KPOP", "尷尬"],
+    "em": "👋",
+    "img": "https://img.youtube.com/vi/O5M0Yc5A_M8/hqdefault.jpg",
+    "vid": "O5M0Yc5A_M8",
+    "grad": ["#102c4a", "#040e1a"],
+    "desc": "新人男團初次見面的名場面「初次見面...我不按理出牌」廣為流傳。",
+    "iL": [{ "text": "初次見面" }, { "text": "我照計畫來" }],
+    "vL": [{ "text": "初次見面", "start": 0, "end": 2 }, { "text": "我不按理出牌", "start": 3, "end": 5 }]
+  },
+  {
+    "id": "jp04",
+    "c": "JP",
+    "y": 2022,
+    "t": "img",
+    "title": "Anya Smug Face",
+    "src": "Spy x Family",
+    "tags": ["動漫", "嘲諷"],
+    "em": "🧃",
+    "img": "https://i.imgflip.com/6ff77i.jpg",
+    "vid": "",
+    "grad": ["#4a3f10", "#1a1604"],
+    "desc": "安妮亞經典的嘲諷笑臉「呵」。",
+    "iL": [{ "text": "呵" }, { "text": "凡人" }],
+    "vL": []
+  },
+  {
+    "id": "jp05",
+    "c": "JP",
+    "y": 2024,
+    "t": "vid",
+    "title": "Bling-Bang-Bang-Born",
+    "src": "Creepy Nuts",
+    "tags": ["動漫", "洗腦"],
+    "em": "🎶",
+    "img": "https://img.youtube.com/vi/2sCQ7lC3MvQ/hqdefault.jpg",
+    "vid": "2sCQ7lC3MvQ",
+    "grad": ["#104a11", "#041a04"],
+    "desc": "肌肉魔法使洗腦神曲與舞蹈。",
+    "iL": [{ "text": "Bling-Bang-Bang" }, { "text": "Born!" }],
+    "vL": [{ "text": "Bling-Bang-Bang", "start": 56, "end": 58 }]
+  },
+  {
+    "id": "tw11",
+    "c": "TW",
+    "y": 2023,
+    "t": "vid",
+    "title": "科目三",
+    "src": "抖音",
+    "tags": ["舞蹈", "社群"],
+    "em": "🕺",
+    "img": "https://img.youtube.com/vi/9g0iM5gA0Qc/hqdefault.jpg",
+    "vid": "9g0iM5gA0Qc",
+    "grad": ["#4a1510", "#1a0404"],
+    "desc": "席捲各地海底撈與校園的舞蹈。",
+    "iL": [{ "text": "科目三" }, { "text": "走起" }],
+    "vL": [{ "text": "DJ 音樂下", "start": 0, "end": 3 }]
   }
 ]
