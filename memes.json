@@ -1,0 +1,127 @@
+[
+  {
+    "id": "tw01",
+    "c": "TW",
+    "y": 2004,
+    "t": "vid",
+    "title": "甘安捏",
+    "src": "《台灣龍捲風》",
+    "tags": ["鄉土劇", "洗腦"],
+    "em": "😏",
+    "img": "https://img.youtube.com/vi/5GL9JoH4Sws/hqdefault.jpg",
+    "vid": "5GL9JoH4Sws",
+    "grad": ["#4a0e0e", "#1c0404"],
+    "desc": "演員方岑飾演反派葉美琪，口頭禪「甘安捏」劇中出現77次。",
+    "iL": [
+      { "text": "甘安捏？" },
+      { "text": "甘安捏！！！" }
+    ],
+    "vL": [
+      { "text": "女角走進房間", "start": 0, "end": 2 },
+      { "text": "你說什麼", "start": 3, "end": 4 },
+      { "text": "甘安捏？甘安捏？", "start": 5, "end": 7 }
+    ]
+  },
+  {
+    "id": "us04",
+    "c": "US",
+    "y": 2024,
+    "t": "vid",
+    "title": "Hawk Tuah",
+    "src": "Nashville街訪",
+    "tags": ["街訪", "爆紅"],
+    "em": "🤠",
+    "img": "https://img.youtube.com/vi/gVEdQJ7qtJw/hqdefault.jpg",
+    "vid": "gVEdQJ7qtJw",
+    "grad": ["#1a2a4a", "#08101c"],
+    "desc": "Haliey Welch南方口音成夏日文化現象。",
+    "iL": [
+      { "text": "HAWK TUAH" },
+      { "text": "Spit on that thang" }
+    ],
+    "vL": [
+      { "text": "You gotta give em", "start": 5, "end": 6 },
+      { "text": "HAWK TUAH!", "start": 7, "end": 8 }
+    ]
+  },
+  {
+    "id": "us06",
+    "c": "US",
+    "y": 2024,
+    "t": "img",
+    "title": "Chill Guy",
+    "src": "藝術家插畫",
+    "tags": ["冷靜", "萬用"],
+    "em": "🐶",
+    "img": "https://i.imgflip.com/9bcdzu.jpg",
+    "vid": "",
+    "grad": ["#2a2a0e", "#101004"],
+    "desc": "穿毛衣卡通狗面對混亂保持冷靜。",
+    "iL": [
+      { "text": "我只是一個" },
+      { "text": "心如止水的狗狗" }
+    ],
+    "vL": []
+  },
+  {
+    "id": "tw03",
+    "c": "TW",
+    "y": 2012,
+    "t": "img",
+    "title": "我全都要",
+    "src": "周星馳《九品芝麻官》",
+    "tags": ["星爺", "萬用"],
+    "em": "🤩",
+    "img": "https://img.youtube.com/vi/BKjBMQ1cFn4/hqdefault.jpg",
+    "vid": "",
+    "grad": ["#0e0e4a", "#04041c"],
+    "desc": "「小孩子才做選擇，我全都要！」",
+    "iL": [
+      { "text": "小孩子才做選擇" },
+      { "text": "我 全 都 要" }
+    ],
+    "vL": []
+  },
+  {
+    "id": "kr02",
+    "c": "KR",
+    "y": 2024,
+    "t": "vid",
+    "title": "APT",
+    "src": "ROSÉ × Bruno Mars",
+    "tags": ["K-POP", "洗腦"],
+    "em": "🎤",
+    "img": "https://img.youtube.com/vi/ekr2nIex040/hqdefault.jpg",
+    "vid": "ekr2nIex040",
+    "grad": ["#0e0e4a", "#04041c"],
+    "desc": "源自韓國喝酒遊戲的洗腦歌曲。",
+    "iL": [
+      { "text": "A-P-T!" },
+      { "text": "APT! APT!" }
+    ],
+    "vL": [
+      { "text": "AP-AP-AP-APT!", "start": 3, "end": 5 }
+    ]
+  },
+  {
+    "id": "ig01",
+    "c": "GL",
+    "y": 2025,
+    "t": "vid",
+    "title": "社群熱門迷因",
+    "src": "Instagram / Reels",
+    "tags": ["社群", "自動更新"],
+    "em": "📱",
+    "img": "https://img.youtube.com/vi/jNQXAC9IVRw/hqdefault.jpg",
+    "vid": "jNQXAC9IVRw",
+    "grad": ["#4a0e2a", "#1c0410"],
+    "desc": "系統自動從 IG/Threads 等社群平台抓取的最新熱門迷因。影片無須手動輸入。",
+    "iL": [
+      { "text": "最新爆紅" }
+    ],
+    "vL": [
+      { "text": "第一段精華", "start": 0, "end": 5 },
+      { "text": "第二段笑點", "start": 6, "end": 10 }
+    ]
+  }
+]

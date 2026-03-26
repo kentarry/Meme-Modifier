@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✏️ MEME 修改器 — 迷因文字編輯工具</title>
+  <meta name="description" content="編輯歷史與現代迷因圖片及影片中的文字，即時預覽並匯出" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:#08080c;color:#fff;font-family:'Noto Sans TC','Inter',sans-serif}
+    button,input,select,textarea{font-family:inherit}
+    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:rgba(255,255,255,.08);border-radius:3px}
+    select option{background:#111}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes glow{0%,100%{box-shadow:0 0 20px rgba(168,85,247,.15)}50%{box-shadow:0 0 40px rgba(168,85,247,.3)}}
+    @keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+    .fu{animation:fadeUp .5s cubic-bezier(.22,1,.36,1) both}
+    .card{transition:all .3s cubic-bezier(.22,1,.36,1);cursor:pointer}
+    .card:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 16px 48px rgba(0,0,0,.6)}
+    .glow-border{animation:glow 3s ease-in-out infinite}
+    .btn{padding:8px 16px;border-radius:10px;border:none;cursor:pointer;font-size:12px;font-weight:700;transition:all .25s;display:inline-flex;align-items:center;gap:6px}
+    .btn:hover{transform:translateY(-1px);filter:brightness(1.15)}
+    .btn-primary{background:linear-gradient(135deg,#a855f7,#6366f1);color:#fff}
+    .btn-ghost{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:rgba(255,255,255,.5)}
+    .btn-ghost:hover{background:rgba(255,255,255,.08);color:#fff}
+    .btn-danger{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.2);color:#ef4444}
+    .input-field{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);color:#fff;font-size:13px;outline:none;transition:border-color .2s}
+    .input-field:focus{border-color:#a855f7}
+    .section-box{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:16px;padding:20px}
+    .pill{padding:6px 14px;border-radius:20px;font-size:11px;cursor:pointer;transition:all .25s;border:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.02);color:rgba(255,255,255,.35);display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+    .pill.active{background:rgba(168,85,247,.15);border-color:rgba(168,85,247,.4);color:#fff;font-weight:700}
+    .tag{font-size:10px;color:rgba(255,255,255,.3);background:rgba(255,255,255,.04);padding:3px 10px;border-radius:20px;border:1px solid rgba(255,255,255,.05)}
+    @media(max-width:640px){.resp-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))!important}.detail-flex{flex-direction:column!important}}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+  <script>
+    // Load and compile external JSX with Babel at runtime
+    fetch('app.jsx')
+      .then(r => r.text())
+      .then(code => {
+        const transformed = Babel.transform(code, { presets: ['react'] }).code;
+        const script = document.createElement('script');
+        script.textContent = transformed;
+        document.body.appendChild(script);
+      })
+      .catch(err => {
+        document.getElementById('root').innerHTML = '<p style="color:red;padding:40px">載入失敗: ' + err.message + '</p>';
+      });
+  </script>
+</body>
+</html>
